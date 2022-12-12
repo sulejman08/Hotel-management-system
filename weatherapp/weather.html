@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Weather APP</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/weather-icons.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <div class="body">
+    <div>
+      <header class="header">
+        <div class="row">
+          <div class="header__logo">
+            <h2>
+              <a href="#">WeatherAPP</a>
+            </h2>
+          </div>
+          <p class="header__date"></p>
+          <div class="header__search">
+            <a title="geolocate" href="#" class="header__geolocate">
+              <i style="font-size: 25px;" class="fa fa-crosshairs" aria-hidden="true"></i>
+            </a>
+            <form class="header__form">
+              <input type="search" placeholder="Type city name" class="header__search">
+              <button class="btn btn-primary" role="search">
+                <i style="color:#fff" class="fa fa-search" aria-hidden="true"></i>
+              </button>
+            </form>
+          </div>
+        </div>
+    </div>
+    </header>
+    <main class="weather">
+      <h1 class="weather__message">Please enter the name of the city or click on the
+        <a title="geolocate" href="#" class="header__geolocate"><i class="fa fa-crosshairs"
+            aria-hidden="true"></i></a>to allow us to get your location
+      </h1>
+    </main>
+
+    <section class="forecast">
+      <div class="row">
+      </div>
+    </section>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
